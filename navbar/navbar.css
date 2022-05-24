@@ -12,6 +12,11 @@ nav ul {
     list-style: none;
 }
 
+nav ul li img {
+    width: 25px;
+    height: auto;
+}
+
 nav ul li a {
     text-decoration: none;
 }
