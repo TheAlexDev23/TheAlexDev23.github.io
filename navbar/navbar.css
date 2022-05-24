@@ -18,5 +18,11 @@ nav ul li img {
 }
 
 nav ul li a {
+    color: #E0FBFC;
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    transition: 1s ease;
+    background-color: #98C1D9;
 }
