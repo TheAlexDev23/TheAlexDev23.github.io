@@ -11,9 +11,13 @@ nav {
 }
 
 nav ul {
-    margin: 15px;
+    margin: 5px;
     display: flex;
     list-style: none;
+}
+
+nav ul li {
+    margin: 15px;
 }
 
 nav ul li img {
