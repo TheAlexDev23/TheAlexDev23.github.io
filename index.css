@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,900;1,300&display=swap');
+
 form button {
     background-color: #E0FBFC;
     border-width: 0px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+form p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
