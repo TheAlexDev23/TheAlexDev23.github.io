@@ -1,0 +1,9 @@
+nav {
+    display: flex;
+    flex-direction: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: center;
+}
