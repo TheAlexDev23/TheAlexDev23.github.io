@@ -1,13 +1,17 @@
 nav {
+    margin: 0;
+    padding: 10px;
     display: flex;
+    background-color: #293241;
     justify-content: center;
 }
 
 nav ul {
+    margin: 15px;
     display: flex;
     list-style: none;
 }
 
 nav ul li a {
-    text-decoration-style: none;
+    text-decoration: none;
 }
