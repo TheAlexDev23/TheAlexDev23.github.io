@@ -1,9 +1,13 @@
 nav {
     display: flex;
-    flex-direction: center;
+    justify-content: center;
 }
 
 nav ul {
     display: flex;
     list-style: none;
+}
+
+nav ul li a {
+    text-decoration-style: none;
 }
