@@ -1,67 +1,96 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <title>TheAlexDev</title>
-        <link rel="stylesheet" href="/navbar/navbar.css">
-    </head>
+	<head>
+		<title>TheAlexDev</title>
+		<link rel="stylesheet" href="/navbar/navbar.css" />
+		<link rel="stylesheet" href="/index.css"/>
+	</head>
 
-    <body>
-        <h1 style="font-family: 'Montserrat' sans-serif;">Alexander Karpukhin, web developer</h1>
+	<body style="overflow-x: hidden;">
+		<main style="margin-top: 100px; margin-left: 15px; margin-right: 15px;">
+			<h1 style="font-style: italic; margin-left: 25px;">
+				Alexander Karpukhin, web developer
+			</h1>
 
+			<div
+				class="decoration-blob"
+				style="
+					position: absolute;
+					top: -45px;
+					right: -55px;
 
-        <div style="
-        position:absolute;
-        top: -45px; 
-        right: -55px;
+					width: 750px;
+					height: 300px;
 
-        width: 750px; 
-        height: 300px; 
-        
-        border-radius: 150px; 
-        background-color: #EE6C4D;
-        
-        z-index: -5;
-        overflow: hidden;
-        "
-        ></div>
+					border-bottom-left-radius: 150px;
+					background-color: #ee6c4d;
 
-        <div style="position: relative; top: 55px;">
-            <div style="width: 200px;">
-                <form
-                    action="https://formspree.io/f/xdobbaal"
-                    method="POST">
-                    
+					z-index: -5;
+				"
+			></div>
 
-                    <p style="font-family:'Montserrat' sans-serif; font-weight: bold;">Contact me</p>
-                    <input class="form-control" placeholder="Enter your email here" type="email" name="email">
-                    <div class="form-group">
-                        <textarea class="form-control" placeholder="Enter your message" name="message"></textarea>
-                    </div>
-                    <div class="form-check">
-                        <button class="btn btn-primary" type="submit">Send</button>
-                    </div>
-                </form>                
-            </div>
+			<div style="position: relative; top: 155px">
+				<div style="width: 200px; top: 75px; position: relative;">
+					<form
+						action="https://formspree.io/f/xdobbaal"
+						method="POST">
+						<p
+							style="
+								font-family: 'Montserrat' sans-serif;
+								font-weight: bold;
+							"
+						>
+							Contact me
+						</p>
+						<input
+							class="form-control"
+							placeholder="Enter your email here"
+							type="email"
+							name="email"
+						/>
+						<div class="form-group">
+							<textarea
+								class="form-control"
+								placeholder="Enter your message"
+								name="message"
+							></textarea>
+						</div>
+						<div class="form-check">
+							<button class="btn btn-primary" type="submit">Send</button>
+						</div>
+					</form>
+					
+					<div class="text-center">
+						<p style="font-style: italic;">It might take me some hours to respond</p>
+					</div>
+				</div>
 
-            <div style="
-            width: 330px;
-            height: 280px;
+				<div
+					class="decoration-blob"
+					style="
+						width: 530px;
+						height: 480px;
 
-            z-index: -5;
+						z-index: -5;
 
-            border-radius: 110px; 
-            background-color: #EE6C4D;
+						border-radius: 200px;
+						background-color: #ee6c4d;
 
-            position: relative;
-            right: 75px;
-            top: -35px;"></div>
-        </div>
+						position: relative;
+						left: -175px;
+						top: -280px;
+					"
+				></div>
+			</div>
+		</main>
 
-        <script src="/lib/jquery.js"></script>
-        <script src="/navbar/loadnavbar.js"></script>
+		<script src="/lib/jquery.js"></script>
+		<script src="/navbar/loadnavbar.js"></script>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    </body>
+		<link rel="stylesheet" href="/lib/bootstrap.css" />
+		<script src="/lib/bootstrap.js"></script>
+
+		<script src="/index.js"></script>
+	</body>
 </html>

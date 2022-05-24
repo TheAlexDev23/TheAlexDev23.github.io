@@ -3,8 +3,6 @@ nav {
     left: 0;
     top: 0;
     width: 100%;
-    margin: 0;
-    padding: 10px;
     display: flex;
     background-color: #293241;
     justify-content: center;
@@ -32,5 +30,6 @@ nav ul li a {
 
 nav ul li a:hover {
     transition: 1s ease;
-    background-color: #98C1D9;
+    text-decoration: underline;
+    color: #98C1D9;
 }
