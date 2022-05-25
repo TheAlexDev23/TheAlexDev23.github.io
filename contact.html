@@ -1,54 +1,74 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="/navbar/navbar.css">
-    </head>
+	<head>
+		<link rel="stylesheet" href="/navbar/navbar.css" >
+        <link rel="stylesheet" href="/global.css" >
+	</head>
 
-    <body>
-        <main>
-            <div>
+	<body>
+		<main>
+			<div
+				style="
+					position: absolute;
+					left: calc(50vw - 275px);
+					top: calc(50vh - 275px);
+				">
+				<div
+					style="
+						height: 450px;
+						width: 450px;
 
-                <div style="
-                height: 450px;
-                width: 450px;
+						border-radius: 110px;
 
-                border-radius: 110px;
+						background-color: #ee6c4d;
 
-                background-color: #EE6C4D;
+						position: absolute;
 
-                position: absolute;
-                left: 50vw;
-                top: 50vh;
+						z-index: -5;
 
-                z-index: -5;
-                "></div>
+                        display: flex;
+                        justify-content: center;
+                        
+					">
+                    
+                    <div style="
+                        position: relative;
+                        top: 25%;
+                        width: 60%;
+                    ">
+                        <form
+                            action="https://formspree.io/f/xdobbaal"
+                            method="POST">
+                            <p class="text-center">Contact me</p>
+                            <input
+                                class="form-control"
+                                placeholder="Enter your email here"
+                                type="email"
+                                name="email"
+                            />
+                            <div class="form-group">
+                                <textarea
+                                    class="form-control"
+                                    placeholder="Enter your message"
+                                    name="message"
+                                ></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button style="width: 175px;" class="btn btn-primary text-center" type="submit">
+                                    Send
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+				</div>
+			</div>
+		</main>
 
-                <div style="
-                position: absolute;
-                left: 50vw;
-                top: 50vh;
-                width: 200px;">
-                    <form
-                        action="https://formspree.io/f/xdobbaal"
-                        method="POST">
 
-                        <p style="font-family:'Montserrat' sans-serif; font-weight: bold;">Contact me</p>
-                        <input class="form-control" placeholder="Enter your email here" type="email" name="email">
-                        <div class="form-group">
-                            <textarea class="form-control" placeholder="Enter your message" name="message"></textarea>
-                        </div>
-                        <div class="form-check">
-                            <button class="btn btn-primary" type="submit">Send</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </main>
+		<script src="/lib/jquery.js"></script>
 
-        <script src="/navbar/loadnavbar.js"></script>
-
-        <script src="/lib/jquery.js"></script>
-
-        <link rel="stylesheet" href="/lib/bootstrap.css">
-        <script src="/lib/bootstrap.js"></script>
-    </body>
+		<script src="/navbar/loadnavbar.js"></script>
+		
+        <link rel="stylesheet" href="/lib/bootstrap.css" />
+		<script src="/lib/bootstrap.js"></script>
+	</body>
 </html>

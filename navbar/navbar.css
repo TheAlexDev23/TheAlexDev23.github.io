@@ -1,11 +1,17 @@
 nav {
-    position: absolute;
+    position: fixed;
+
+    z-index: 5;
+
     left: 0;
     top: 0;
     width: 100%;
     display: flex;
     background-color: #293241;
     justify-content: center;
+
+    /*By some unkown reason bootsrap does some weird shit with padding...*/
+    padding-left: 0px;
 }
 
 nav ul {

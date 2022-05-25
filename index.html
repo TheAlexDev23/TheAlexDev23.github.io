@@ -4,10 +4,11 @@
     <head>
         <title>TheAlexDev</title>
         <link rel="stylesheet" href="/navbar/navbar.css">
+        <link rel="stylesheet" href="/global.css">
     </head>
 
     <body style="overflow-x: hidden;">
-        <main style="margin-left: 10px; margin-right: 10px; margin-top: 25px;">
+        <main style="margin-left: 10px; margin-right: 10px; margin-top: 125px;">
             <h1 style="font-family: 'Montserrat' sans-serif;">Alexander Karpukhin, web developer</h1>
 
             <div style="
@@ -26,37 +27,48 @@
             "
             ></div>
 
-            <div style="position: relative; top: 55px;">
-                <div style="width: 200px;">
-                    <form
-                        action="https://formspree.io/f/xdobbaal"
-                        method="POST">
-
-                        <p style="font-family:'Montserrat' sans-serif; font-weight: bold;">Contact me</p>
-                        <input class="form-control" placeholder="Enter your email here" type="email" name="email">
-                        <div class="form-group">
-                            <textarea class="form-control" placeholder="Enter your message" name="message"></textarea>
-                        </div>
-                        <div class="form-check">
-                            <button class="btn btn-primary" type="submit">Send</button>
-                        </div>
-                    </form>
-                </div>
-
+            <div style="position:relative; top: 145px;">
                 <div style="
-                width: 330px;
-                height: 280px;
+                width: 430px;
+                height: 380px;
 
-                z-index: -5;
-
-                border-radius: 110px; 
+                border-top-right-radius: 110px; 
+                border-bottom-right-radius: 110px;
                 background-color: #EE6C4D;
 
                 position: relative;
                 right: 75px;
-                top: -35px;"></div>
+                top: -35px;">
+                
+                    <div style="position: relative; top: 95px; left: 95px;">
+                        <div style="width: 200px;">
+                            <form
+                                action="https://formspree.io/f/xdobbaal"
+                                method="POST">
+
+                                <p style="font-family:'Montserrat' sans-serif; font-weight: bold;">Contact me</p>
+                                <input class="form-control" placeholder="Enter your email here" type="email" name="email">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Enter your message" name="message"></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button style="width: 175px;" class="btn btn-primary" type="submit">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <h2 style="
+                width: 750px;
+                position: absolute; 
+                top: 500px;
+                left: calc(50vw - 50px);
+                font-style: italic;
+                font-weight: lighter;
+                text-align: center;
+            ">"I can build any website small or medium sized website for you and your business."</h2>
         </main>
 
         <script src="/lib/jquery.js"></script>
