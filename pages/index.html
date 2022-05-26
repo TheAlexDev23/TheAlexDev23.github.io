@@ -5,41 +5,18 @@
         <title>TheAlexDev</title>
         <link rel="stylesheet" href="/navbar/navbar.css">
         <link rel="stylesheet" href="/global.css">
+        <link rel="stylesheet" href="/styles/index.css">
+        <link rel="stylesheet" href="/styles/decorative-blobs.css">
     </head>
 
     <body style="overflow-x: hidden;">
         <main style="margin-left: 10px; margin-right: 10px; margin-top: 125px;">
-            <h1 style="font-family: 'Montserrat' sans-serif;">Alexander Karpukhin, web developer</h1>
+            <h1>Alexander Karpukhin, web developer</h1>
 
-            <div style="
-            position:absolute;
-            top: -45px; 
-            right: -55px;
-
-            width: 750px; 
-            height: 300px; 
-            
-            border-bottom-left-radius: 150px;
-            background-color: #EE6C4D;
-            
-            z-index: -5;
-            overflow: hidden;
-            "
-            ></div>
+            <div id="index-blob1"></div>
 
             <div style="position:relative; top: 145px;">
-                <div style="
-                width: 430px;
-                height: 380px;
-
-                border-top-right-radius: 110px; 
-                border-bottom-right-radius: 110px;
-                background-color: #EE6C4D;
-
-                position: relative;
-                right: 75px;
-                top: -35px;">
-                
+                <div id="index-blob2">
                     <div style="position: relative; top: 95px; left: 95px;">
                         <div style="width: 200px;">
                             <form
@@ -60,22 +37,7 @@
                 </div>
             </div>
 
-            <h2 style="
-                width: 750px;
-                position: absolute; 
-                top: 500px;
-                left: calc(50vw - 50px);
-                font-style: italic;
-                font-weight: lighter;
-                text-align: center;
-            ">"I can build any small or medium sized website for you and your business."</h2>
-
-            <div class="text-center" style="position: absolute; bottom: 2px; left:calc(50vw - 10px);">
-                <button style="position:relative;" class="btn btn-info" onclick="
-                    window.scrollBy(0, window.innerHeight);
-                ">Know More</button>
-            </div>
-
+            <h2 class="quote">"I can build any small or medium sized website for you and your business."</h2>
         </main>
 
         <script src="/lib/jquery.js"></script>

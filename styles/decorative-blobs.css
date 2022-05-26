@@ -1,0 +1,36 @@
+#index-blob1 {
+    position:absolute;
+    top: -45px; 
+    right: -55px;
+
+    width: 750px; 
+    height: 300px; 
+    
+    border-bottom-left-radius: 150px;
+    background-color: #EE6C4D;
+    
+    z-index: -5;
+    overflow: hidden;
+}
+
+#index-blob2{
+    width: 430px;
+    height: 380px;
+
+    border-top-right-radius: 110px; 
+    border-bottom-right-radius: 110px;
+    background-color: #EE6C4D;
+
+    position: relative;
+    right: 75px;
+    top: -35px;
+}
+
+@media (min-width: 450px) {
+    #index-blob1 {
+        top: 0;
+        right: 0;
+
+        width: 500px;
+    }
+}

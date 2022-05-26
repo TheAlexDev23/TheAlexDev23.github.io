@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,900;1,300&display=swap');
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: #3D5A80;
+h2.quote {
+    width: 750px;
+    position: absolute; 
+    top: 500px;
+    left: calc(50vw - 50px);
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
 }
 
-form p {
-    font-weight: bold;
-}
-
-p {
-    color: #293241;
-    font-family: 'Montserrat' sans-serif;
+@media (min-width: 450px) {
+    h2.quote {
+        width: 500px;
+    }
 }
