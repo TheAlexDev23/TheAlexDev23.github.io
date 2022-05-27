@@ -1,4 +1,15 @@
-h2.quote {
+h2.quote-mobile {
+    display: none;
+
+    margin: 25px;
+    
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h2.quote-desktop {
+    display: block;
     width: 750px;
     position: absolute; 
     top: 500px;
@@ -9,7 +20,11 @@ h2.quote {
 }
 
 @media (min-width: 450px) {
-    h2.quote {
-        width: 500px;
+    h2.quote-mobile {
+        display: block;
+    }
+
+    h2.quote-desktop {
+        display: none;
     }
 }
