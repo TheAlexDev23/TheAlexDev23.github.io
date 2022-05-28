@@ -1,0 +1,12 @@
+.blob-wrapper {
+	position: absolute;
+	justify-content: center;
+	left: calc(50vw - 225px);
+	top: calc(50vh - 225px);
+}
+
+@media (max-width: 600px) {
+	.blob-wrapper {
+		left: 5vw;
+	}
+}

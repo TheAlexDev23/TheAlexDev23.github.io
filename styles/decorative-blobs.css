@@ -26,6 +26,22 @@
     top: -35px;
 }
 
+#contact-blob1 {
+    height: 450px;
+    width: 450px;
+
+    border-radius: 110px;
+
+    background-color: #ee6c4d;
+
+    position: absolute;
+
+    z-index: -5;
+
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 600px) {
     #index-blob1 {
         top: 0;
@@ -33,5 +49,10 @@
 
         width: 400px;
         height: 200px;
+    }
+
+    #contact-blob1 {
+        height: 90vw;
+        width: 90vw;
     }
 }
