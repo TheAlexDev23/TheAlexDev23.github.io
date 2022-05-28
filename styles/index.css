@@ -1,15 +1,4 @@
-h2.quote-mobile {
-    display: none;
-
-    margin: 25px;
-    
-    font-style: italic;
-    font-weight: lighter;
-    text-align: center;
-}
-
-h2.quote-desktop {
-    display: block;
+h2.quote {
     width: 750px;
     position: absolute; 
     top: 500px;
@@ -19,12 +8,30 @@ h2.quote-desktop {
     text-align: center;
 }
 
-@media (min-width: 450px) {
-    h2.quote-mobile {
+h2.quote-mobile {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    h2.quote {
+        left: 50vw;
         display: block;
+        width: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    h2.quote {
+        display: none;
     }
 
-    h2.quote-desktop {
-        display: none;
+    h2.quote-mobile {
+        position: relative;
+        top: 55px;
+        display: block;
+        width: 85vw;
+        font-style: italic;
+        font-weight: lighter;
+        text-align: center;
     }
 }
